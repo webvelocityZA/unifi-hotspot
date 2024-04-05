@@ -38,6 +38,19 @@ docker run -d \
 woodjme/unifi-hotspot
 ```
 
+### Without Docker
+
+To run the application without docker you need to have `node` and `npm` installed. You can then run the following commands to get started.
+
+```bash
+git clone
+cd unifi-hotspot
+npm install
+npm start
+```
+For the environment variables you can use a `.env` file in the root of the project. An example of this file can be found in the `.env.example` file.
+
+
 Once started navigate to the path`guest/s/$SITENAME/` to test splash page.
 
 You then need to configure the unifi portal to look at this container. To do this go to the `Unifi Control panel` -> `Guest Control` -> `Enable Guest Control` -> `External Portal Server` -> Add the `IP Address` or `DNS Name` of your server / container host.

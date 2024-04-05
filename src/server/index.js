@@ -1,6 +1,8 @@
 const express = require('express')
 const server = express()
 const bodyParser = require('body-parser')
+require('dotenv').config()
+
 
 const unifiSiteName = process.env.UNIFI_SITENAME || process.env.SITENAME
 

@@ -2,6 +2,11 @@
 
 The purpose of this repo is to provide a flexible, Node.js based external portal server for authorising Wi-Fi guests on Unifi products. Out of the box is currently support storing user information in Google Sheets or posting it via a webhook.
 
+
+## Documentation (Important!)
+
+[Documentation](https://docs.unifi-hotspot.jamiewood.io) or locally in the `docs/README.md` file.
+
 ## What's new in V2
 
 ### BREAKING CHANGES
@@ -18,6 +23,5 @@ The purpose of this repo is to provide a flexible, Node.js based external portal
 * 🎉 Store the contents of the hotspot form using `LOG_AUTH` drivers 🎉
 * Listen on port given in env
 
-## Documentation
 
-[Documentation](https://docs.unifi-hotspot.jamiewood.io)
+
